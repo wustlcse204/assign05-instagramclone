@@ -6,3 +6,6 @@ body{
     background: #fff;
     /* border: 1px solid #dfdfdf; */
 }
+header{
+    height: 54px;
+}
