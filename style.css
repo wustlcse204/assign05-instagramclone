@@ -4,6 +4,9 @@ body{
     padding: 40x 0;
     display: flex;
     background: #fff;
-    border: 1px solid #dfdfdf;
-    margin-top: 53px;
+    /* border: 1px solid #dfdfdf; */
+}
+header{
+   display: flex;
+    
 }
