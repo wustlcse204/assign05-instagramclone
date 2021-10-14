@@ -60,6 +60,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
+/*make sure to change this to 8px when putting into visual studio code*/
 .magnifying-glass{
 margin-top: 8px;
 }
@@ -96,10 +97,27 @@ display: flex;
 flex-direction: row;
 }
 .natgeo-words{
-margin-top: 15px;
+margin-top: 16px;
 }
 .natgeo-profpic{
 border-radius: 50%;
 width: 35px;
-padding: 10px;
+padding: 12px;
+}
+.fish-pic{
+width: 700px;
+height: 700px;
+}
+like-comment-icons{
+padding: 7px;
+display: flex;
+flex-direction: row;
+gap: 15px;
+color: rgb(90,90,90);
+}
+save-icons{
+color: rgb(90,90,90);
+font-size: 28px;
+margin-left: 530px;
+margin-top: -5px;
 }
