@@ -9,7 +9,7 @@ body{
 }
 .white-box{
 position: relative;
-height: 85px;
+height: 75px;
 width: 100%;
 background-color: #FFFFFF;
 margin-left: -8px;
@@ -53,7 +53,7 @@ border: 1px solid #DBDBDB;
 background-color: dimgrey;
 width: 235px;
 position: absolute;
-left: 43%;
+left: 40%;
 }
 .search-contents{
 display: flex;
@@ -61,13 +61,13 @@ flex-direction: row;
 justify-content: center;
 }
 .magnifying-glass{
-margin-top: 8px;
+margin-top: 3px;
 }
 .search-words{
 margin-top: 4px;
 margin-left: 3px;
 color: #A2A3AC;
-font-size: 16px;
+font-size: 15px;
 float: left;
 }
 .icon-navigation{
@@ -86,8 +86,20 @@ margin-right: 300px;
 }
 .feed{
 border: 2px solid #E6E6E6;
-margin-top: 95px;
+margin-top: 90px;
 width: 700px;
 height: 800px;
 background-color: #FFFFFF;
+}
+natgeo-user{
+display: flex;
+flex-direction: row;
+}
+.natgeo-words{
+margin-top: 15px;
+}
+.natgeo-profpic{
+border-radius: 50%;
+width: 35px;
+padding: 10px;
 }
