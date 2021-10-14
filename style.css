@@ -3,9 +3,63 @@ body{
     width: 100%;
     padding: 40x 0;
     display: flex;
-    background: #fff;
+    background: #FFFFFF;
     /* border: 1px solid #dfdfdf; */
+    margin-right: 300px;
+    margin-left: 300px;
 }
-header{
-    height: 54px;
+.fancy-instagram-script{
+  margin-left: 15px;
+  height: 40px;
+  width: auto;
+}
+.fab fa-instrgram{
+  float: right;
+}
+.vertical {
+  margin-left: 20px;
+  border-left: 1.5px solid #A4A4A4;
+  height: 30px;
+  float: right;
+}
+.header-bar{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.search-box{
+  border: 1px solid #DBDBDB;
+  background-color: #FAFAFA;
+  height: 28px;
+  width: 235px;
+  position: absolute;
+  left: 43%;
+}
+.search-box:focus{
+  background-color: #A4A4A4;
+}
+.search-contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.magnifying-glass{
+  margin-top: 3px;
+}
+.search-words{
+  margin-top: 4px;
+  margin-left: 3px;
+  color: #A2A3AC;
+  font-size: 16px;
+  float: left;
+}
+.icon-navigation{
+  font-size: 25px;
+  float: right;
+  display: flex;
+  gap: 30px;
+}
+.invis-box{
+  background-color: transparent;
+  width: 850px;
 }
