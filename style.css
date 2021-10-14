@@ -1,65 +1,81 @@
 body{
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    padding: 40x 0;
-    display: flex;
-    background: #FFFFFF;
-    /* border: 1px solid #dfdfdf; */
-    margin-right: 300px;
-    margin-left: 300px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid #dfdfdf; */
+  /*margin-right: 300px;
+  margin-left: 300px;*/
+  background: #FAFAFA;
+}
+.white-box{
+position: relative;
+height: 90px;
+width: 100%;
+background-color: #FFFFFF;
+margin-left: -8px;
+margin-top: -10px;
+position: fixed;
 }
 .fancy-instagram-script{
-  margin-left: 15px;
-  height: 40px;
-  width: auto;
+margin-left: 15px;
+height: 40px;
+width: auto;
 }
 .fab fa-instrgram{
-  float: right;
+float: right;
 }
 .vertical {
-  margin-left: 20px;
-  border-left: 1.5px solid #A4A4A4;
-  height: 30px;
-  float: right;
+margin-left: 20px;
+border-left: 1.5px solid #A4A4A4;
+height: 30px;
+float: right;
 }
 .header-bar{
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
+margin-left: 300px;
+margin-right: 300px; 
+margin-top: 20px;
+position: fixed;
+display: flex;
+flex-direction: row;
+background-color: transparent;
 }
-.search-box{
-  border: 1px solid #DBDBDB;
-  background-color: #FAFAFA;
-  height: 28px;
-  width: 235px;
-  position: absolute;
-  left: 43%;
+box{
+border: 1px solid #DBDBDB;
+background-color: #FAFAFA;
+height: 28px;
+width: 235px;
+position: absolute;
+left: 43%;
 }
-.search-box:focus{
-  background-color: #A4A4A4;
+box:hover{
+border: 1px solid #DBDBDB;
+background-color: dimgrey;
+width: 235px;
+position: absolute;
+left: 43%;
 }
 .search-contents{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 .magnifying-glass{
-  margin-top: 8px;
+margin-top: 8px;
 }
 .search-words{
-  margin-top: 4px;
-  margin-left: 3px;
-  color: #A2A3AC;
-  font-size: 16px;
-  float: left;
+margin-top: 4px;
+margin-left: 3px;
+color: #A2A3AC;
+font-size: 16px;
+float: left;
 }
 .icon-navigation{
-  font-size: 25px;
-  float: right;
-  display: flex;
-  gap: 30px;
+font-size: 25px;
+float: right;
+display: flex;
+gap: 30px;
 }
 .invis-box{
-  background-color: transparent;
-  width: 850px;
+background-color: transparent;
+width: 850px;
 }
