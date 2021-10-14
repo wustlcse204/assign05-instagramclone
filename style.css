@@ -39,6 +39,7 @@ position: fixed;
 display: flex;
 flex-direction: row;
 background-color: transparent;
+z-index: 1;
 }
 box{
 border: 1px solid #DBDBDB;
@@ -93,7 +94,6 @@ height: 965px;
 background-color: #FFFFFF;
 }
 .secondpost{
-
   border: 2px solid #E6E6E6;
   margin-top: 30px;
   width: 700px;
@@ -164,10 +164,12 @@ color: rgb(163,166,166);
 font-size: 15px;
 position: relative;
 top: 10px;
+z-index: -1;
 }
 .ellipsis{
 color: rgb(88,88,88);
 position: relative;
 left: 527px;
 top: 10px;
+z-index: -1;
 }
