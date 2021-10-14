@@ -39,7 +39,6 @@ position: fixed;
 display: flex;
 flex-direction: row;
 background-color: transparent;
-z-index: 1;
 }
 box{
 border: 1px solid #DBDBDB;
@@ -92,7 +91,6 @@ margin-top: 90px;
 width: 700px;
 height: 965px;
 background-color: #FFFFFF;
-z-index: -1;
 }
 .secondpost{
   border: 2px solid #E6E6E6;
@@ -100,7 +98,6 @@ z-index: -1;
   width: 700px;
   height: 965px;
   background-color: #FFFFFF; 
-  z-index: -1;
 }
 natgeo-user{
 display: flex;
@@ -164,12 +161,12 @@ border: 1px solid #EFEFEF;
 padding: 10px;
 color: rgb(163,166,166);
 font-size: 15px;
-position: relative;
+position: absolute;
 top: 10px;
 }
 .ellipsis{
 color: rgb(88,88,88);
-position: relative;
+position: absolute;
 left: 527px;
 top: 10px;
 }
