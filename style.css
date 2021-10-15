@@ -231,6 +231,7 @@ float: right;
   position: relative;
   top: -249px;
   left: 454px;
+  z-index = 1;
 }
 profpic-suggestions{
   display: flex;
@@ -281,6 +282,25 @@ text-follow{
   margin-top: 4px;
   font-weight: 900;
 }
-#spacex{
-  margin-top: 2px;
+#spacex1{
+  margin-top: 5px;
+}
+xButton{
+  color: rgb(171,171,171);
+  margin-left: 200px;
+  position: relative;
+  top: 165px;
+}
+xButton2{
+  color: rgb(171,171,171);
+  margin-left: 210px;
+  position: relative;
+  top: 165px;
+  z-index = 1;
+}
+xButton3{
+  color: rgb(171,171,171);
+  margin-left: 175px;
+  position: absolute;
+  margin-top: 17px;
 }
