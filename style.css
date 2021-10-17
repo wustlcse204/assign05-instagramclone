@@ -304,3 +304,15 @@ xButton3{
   position: absolute;
   margin-top: 17px;
 }
+me-user{
+  display: flex;
+  flex-direction: row;
+  }
+  .me-words{
+  margin-top: 16px;
+  }
+  .me-profpic{
+  border-radius: 50%;
+  width: 35px;
+  padding: 12px;
+  }
