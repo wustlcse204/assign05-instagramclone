@@ -323,10 +323,10 @@ xButton3{
   margin-top: 17px;
 }
 .stories-sidebar{
-  border: 2px solid #E6E6E6;
+  border: 2px solid transparent;
   margin-top: 90px;
   width: 290px;
-  height: 965px;
+  height: 500px;
   position: relative;
   right: 290px;;
 }
@@ -370,4 +370,12 @@ me-user{
     font-size: 13px;
     font-weight: 900;
     margin-left: 165px;
+  }
+  .scrolly-thingy-for-stories{
+    border: 2px solid #E6E6E6;
+    margin-top: 200px;
+    width: 290px;
+    height: 500px;
+    position: relative;
+    right: 290px;;
   }
