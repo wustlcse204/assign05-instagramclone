@@ -304,7 +304,13 @@ xButton3{
   position: absolute;
   margin-top: 17px;
 }
-
+.stories-sidebar{
+  border: 2px solid #E6E6E6;
+margin-top: 90px;
+width: 700px;
+height: 965px;
+background-color: #FFFFFF;
+}
 me-user{
   display: flex;
   flex-direction: row;
