@@ -19,11 +19,17 @@ border: 2px solid #EAEAEA;
 }
 .fancy-instagram-script{
 margin-left: 15px;
+margin-bottom: 20px;
 height: 40px;
 width: auto;
 }
 .fab fa-instrgram{
+  margin-top: 17px;
 float: right;
+}
+this{
+  position: absolute; 
+  top: 17px;
 }
 .vertical {
 margin-left: 20px;
@@ -31,10 +37,18 @@ border-left: 1.5px solid #A4A4A4;
 height: 30px;
 float: right;
 }
+move-up{
+  position: absolute;
+}
+.this-whole-thing-on-the-left{
+  display: row;
+  flex-direction: row;
+  position: absolute; 
+  top: 17px;
+}
 .header-bar{
 margin-left: 300px;
 margin-right: 300px; 
-margin-top: 17px;
 position: fixed;
 display: flex;
 flex-direction: row;
@@ -46,14 +60,16 @@ background-color: #FAFAFA;
 height: 28px;
 width: 230px;
 position: absolute;
-left: 40%;
+left: 30%;
+top: 17px;
 }
 box:hover{
 border: 1px solid #DBDBDB;
 background-color: dimgrey;
 width: 235px;
 position: absolute;
-left: 40%;
+left: 30%;
+top: 17px;
 }
 .search-contents{
 display: flex;
@@ -72,6 +88,8 @@ font-size: 15px;
 float: left;
 }
 .icon-navigation{
+  margin-top: 17px;
+  margin-left: 50px;
 font-size: 25px;
 float: right;
 display: flex;
@@ -79,7 +97,7 @@ gap: 30px;
 }
 .invis-box{
 background-color: transparent;
-width: 850px;
+width: 1000px;
 }
 .main{
 margin-left: 300px;
@@ -306,10 +324,12 @@ xButton3{
 }
 .stories-sidebar{
   border: 2px solid #E6E6E6;
-margin-top: 90px;
-width: 700px;
-height: 965px;
-background-color: #FFFFFF;
+  margin-top: 90px;
+  width: 290px;
+  height: 965px;
+  position: relative;
+  right: 290px;
+  background-color: white;
 }
 me-user{
   display: flex;
@@ -322,4 +342,17 @@ me-user{
   border-radius: 50%;
   width: 35px;
   padding: 12px;
+  }
+.my-name{
+  color: rgb(167,167,167);
+  font-size: 12px;
+  position: relative;
+  top: 35px;
+  right: 72px;
+}
+.smol{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 90%;
+  border: 1px solid #EFEFEF;
   }
