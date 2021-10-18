@@ -372,14 +372,15 @@ me-user{
     margin-left: 175px;
   }
 .stories{
-    border: 2px solid black;
+    border: 2px solid transparent;
   margin-top: 200px;
   width: 300px;
-  height: 400px;
+  height: 300px;
   position: relative;
-  right: 280px;
+  left: 1020px;
   background-color: transparent;
   overflow: scroll;
+  position: fixed;
   }
   a-user{
     display: flex;
@@ -398,4 +399,32 @@ me-user{
     font-size: 12px;
     margin-top: -30px;
     margin-left: 64px;
+  }
+  .copyright-stuff{
+    border: 2px solid transparent;
+  margin-top: 510px;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  left: 1020px;
+  background-color: transparent;
+  overflow: scroll;
+  position: fixed;
+  }
+  .texty{
+    color: rgb(200,200,200);
+    font-size: 12px;
+  }
+  .more-texty{
+    color: rgb(200,200,200);
+    font-size: 12px;
+  }
+  .even-more-texty{
+    color: rgb(200,200,200);
+    font-size: 12px;
+  }
+  .copyright-line{
+    margin-top: 12px;
+    color: rgb(200,200,200);
+    font-size: 12px;
   }
