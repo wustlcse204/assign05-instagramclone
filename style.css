@@ -435,4 +435,7 @@ me-user{
   .stories{
     visibility: hidden;
   }
+  .copyright-stuff{
+    visibility: hidden;
+  }
 }
