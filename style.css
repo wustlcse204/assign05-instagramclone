@@ -328,7 +328,7 @@ xButton3{
   width: 290px;
   height: 500px;
   position: relative;
-  right: 290px;;
+  right: 290px;
 }
 me-user{
   display: flex;
@@ -339,7 +339,7 @@ me-user{
   }
   .me-profpic{
   border-radius: 50%;
-  width: 35px;
+  width: 40px;
   padding: 12px;
   }
 .my-name{
@@ -352,7 +352,7 @@ me-user{
 .smol{
   margin-top: 0px;
   margin-left: 10px;
-  width: 91%;
+  width: 98%;
   border: 1px solid #EFEFEF;
   }
   stories-word{
@@ -369,13 +369,33 @@ me-user{
     color: rgb(61,61,61);
     font-size: 13px;
     font-weight: 900;
-    margin-left: 165px;
+    margin-left: 175px;
   }
-  .scrolly-thingy-for-stories{
-    border: 2px solid #E6E6E6;
-    margin-top: 200px;
-    width: 290px;
-    height: 500px;
-    position: relative;
-    right: 290px;;
+.stories{
+    border: 2px solid black;
+  margin-top: 200px;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  right: 280px;
+  background-color: transparent;
+  overflow: scroll;
+  }
+  a-user{
+    display: flex;
+    flex-direction: row;
+    }
+    .a-words{
+    margin-top: 16px;
+    }
+    .a-profpic{
+    border-radius: 50%;
+    width: 40px;
+    padding: 12px;
+    }
+  .description{
+    color:rgb(156,156,157);
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left: 64px;
   }
