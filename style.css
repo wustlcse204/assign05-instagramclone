@@ -47,8 +47,8 @@ move-up{
   top: 17px;
 }
 .header-bar{
-margin-left: 300px;
-margin-right: 300px; 
+  margin-left: 18%;
+  margin-right: 18%; 
 position: fixed;
 display: flex;
 flex-direction: row;
@@ -428,3 +428,11 @@ me-user{
     color: rgb(200,200,200);
     font-size: 12px;
   }
+@media (max-width:1024px){
+  .stories-sidebar{
+    visibility: hidden;
+  }
+  .stories{
+    visibility: hidden;
+  }
+}
